@@ -7,14 +7,14 @@ void wavePrint(vector<vector<int>> &v){
     int cols = v[0].size();
 
     // this also works, but for practice lets solve below code.
-    for(int col=0; col<cols; col++){
-        if(col%2 == 0){ //even
-            for(int row=rows-1; row>=0; row--){
-                cout << v[row][col] << " ";
+    for(int j=0; j<cols; j++){
+        if(j%2 == 0){ //even
+            for(int i=rows-1; i>=0; i--){
+                cout << v[i][j] << " ";
             }
         }else{ // odd
-            for(int row  =0; row<rows; row++){
-                cout << v[row][col]<< " ";
+            for(int i  =0; i<rows; i++){
+                cout << v[i][j]<< " ";
             }
         }
     }
