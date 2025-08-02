@@ -1,7 +1,7 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main() {
     int arr[3][3]; // 2d array with 3 rows and 3 columns
 
     //Initialisation
